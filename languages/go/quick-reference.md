@@ -12,7 +12,7 @@ variables:
 
 # Go Style Guide Quick Reference
 
-{{if not eq .extended "true" }}
+{{if ne .extended "true" }}
 **Clarity > Cleverness** • **Simplicity > Complexity** • **Explicit > Implicit**
 
 ## Naming
