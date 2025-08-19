@@ -7,7 +7,7 @@ trigger:
   description: When optimizing Go code performance or reviewing for common mistakes
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Performance and Anti-patterns

@@ -7,7 +7,7 @@ trigger:
   description: When implementing concurrent code, goroutines, channels, or synchronization
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Concurrency Patterns

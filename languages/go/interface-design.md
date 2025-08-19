@@ -7,7 +7,7 @@ trigger:
   globs: ["**/*.go", "!**/*_test.go"]
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Interface Design Principles

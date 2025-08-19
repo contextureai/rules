@@ -7,7 +7,7 @@ trigger:
   globs: ["**/*_test.go"]
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Testing Best Practices

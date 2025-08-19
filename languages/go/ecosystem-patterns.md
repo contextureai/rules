@@ -7,7 +7,7 @@ trigger:
   description: When working with protobuf, gRPC, Go modules, or external dependencies
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Ecosystem and External Integration

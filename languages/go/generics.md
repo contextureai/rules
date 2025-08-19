@@ -7,7 +7,7 @@ trigger:
   description: When implementing generic types, functions with type parameters, or type constraints
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Generics and Type Parameters

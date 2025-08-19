@@ -7,7 +7,7 @@ trigger:
   globs: ["**/*.go"]
 languages: [go]
 variables:
-    extended: false
+  extended: "false"
 ---
 
 # Go Code Organization and Imports

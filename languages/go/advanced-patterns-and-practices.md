@@ -7,7 +7,7 @@ trigger:
   description: When designing CLIs, APIs with options, JSON handling, or time-based code
 languages: [go]
 variables:
-    extended: false
+  extended: false
 ---
 
 # Go Advanced Patterns and Practices
