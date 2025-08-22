@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*_test.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Testing Best Practices
-
 {{if not .extended}}
 ## Table-Driven Tests
 Use table-driven tests for comprehensive coverage. Define a slice of test case structs and iterate through them with `t.Run`.

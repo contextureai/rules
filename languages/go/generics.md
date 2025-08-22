@@ -7,11 +7,8 @@ trigger:
   description: When implementing generic types, functions with type parameters, or type constraints
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Generics and Type Parameters
-
 {{if not .extended}}
 ## When to Use Generics
 Use generics when you have functions or data structures that work with multiple different types in the exact same way.

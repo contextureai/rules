@@ -7,10 +7,8 @@ trigger:
   globs: ["**/*.go", "!**/*_test.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-# Go Naming Conventions
-
 {{if not .extended}}
 ## Package Names
 - **lowercase**, **short**, **single-word**, **singular**: `net/url`, not `net/urls`

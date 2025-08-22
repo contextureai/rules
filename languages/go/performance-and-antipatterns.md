@@ -7,11 +7,8 @@ trigger:
   description: When optimizing Go code performance or reviewing for common mistakes
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Performance and Anti-patterns
-
 {{if not .extended}}
 ## Performance Principles
 1.  **Measure First**: Use benchmarks (`go test -bench`) and profiling (`pprof`) to identify actual bottlenecks. Don't guess.

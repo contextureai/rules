@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Code Organization and Imports
-
 {{if not .extended}}
 ## Import Grouping
 Group imports into three blocks, separated by a blank line, in this order:

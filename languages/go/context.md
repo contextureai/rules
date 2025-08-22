@@ -9,9 +9,6 @@ languages: [go]
 variables:
   extended: false
 ---
-
-# Go Context Usage Patterns
-
 {{if not .extended}}
 ## Core Rules
 1.  **Pass `context.Context` as the first parameter** in a function call, right after the receiver for methods. Name it `ctx`.

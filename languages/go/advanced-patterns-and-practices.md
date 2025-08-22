@@ -9,9 +9,6 @@ languages: [go]
 variables:
   extended: false
 ---
-
-# Go Advanced Patterns and Practices
-
 {{if not .extended}}
 ## Functional Options
 For constructors that take a complex configuration, the functional options pattern provides a flexible and clean API. It's more scalable than a large config struct or a long list of constructor arguments.

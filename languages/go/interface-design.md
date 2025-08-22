@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*.go", "!**/*_test.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Interface Design Principles
-
 {{if not .extended}}
 ## Core Principles
 1.  **Accept interfaces, return structs**: Functions should accept the minimal interface needed, but return concrete types. This gives the caller flexibility without sacrificing utility.

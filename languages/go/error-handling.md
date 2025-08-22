@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*.go", "!**/*_test.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Error Handling Patterns
-
 {{if not .extended}}
 ## Core Principles
 1.  **Check all errors**: No `_ = someFunc()`.

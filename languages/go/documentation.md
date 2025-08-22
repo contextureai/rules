@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Documentation Standards
-
 {{if not .extended}}
 ## General Rules
 - Document every exported name (function, type, constant, variable).

@@ -7,11 +7,8 @@ trigger:
   description: When implementing concurrent code, goroutines, channels, or synchronization
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Concurrency Patterns
-
 {{if not .extended}}
 ## Goroutine Lifecycle
 Every goroutine must be managed: know when it will stop, and have a way to wait for it to complete. Never start a goroutine without a clear termination plan. `sync.WaitGroup` is the standard tool for this.

@@ -7,12 +7,9 @@ trigger:
   globs: ["**/*.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Style Guide Quick Reference
-
-{{if ne .extended "true" }}
+{{if not .extended}}
 **Clarity > Cleverness** • **Simplicity > Complexity** • **Explicit > Implicit**
 
 ## Naming

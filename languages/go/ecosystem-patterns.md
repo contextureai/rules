@@ -7,11 +7,8 @@ trigger:
   description: When working with protobuf, gRPC, Go modules, or external dependencies
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Ecosystem and External Integration
-
 {{if not .extended}}
 ## Protocol Buffers (Protobuf)
 - **Pass messages by pointer** (`*userpb.User`) as they can be large.

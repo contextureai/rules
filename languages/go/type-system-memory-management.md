@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Type System and Memory Management
-
 {{if not .extended}}
 ## Pointers vs. Values
 - **Pass by value** for small, immutable data (basic types, small structs). All arguments in Go are passed by value, meaning a copy is made.

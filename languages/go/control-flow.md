@@ -7,11 +7,8 @@ trigger:
   globs: ["**/*.go", "!**/*_test.go"]
 languages: [go]
 variables:
-  extended: "false"
+  extended: false
 ---
-
-# Go Control Flow Best Practices
-
 {{if not .extended}}
 ## Early Returns (Guard Clauses)
 Handle error conditions and preconditions at the beginning of a function to reduce nesting. This keeps the "happy path" at the lowest level of indentation, improving readability.
